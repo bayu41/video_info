@@ -34,15 +34,15 @@ class VideoInfo
       end
 
       def thumbnail_small
-        _video_thumbnail(0)
+        "http://img.youtube.com/vi/#{video_id}/default.jpg"
       end
 
       def thumbnail_medium
-        _video_thumbnail(1)
+        "http://img.youtube.com/vi/#{video_id}/mqdefault.jpg"
       end
 
       def thumbnail_large
-        _video_thumbnail(2)
+        "http://img.youtube.com/vi/#{video_id}/hqdefault.jpg"
       end
 
       def view_count
